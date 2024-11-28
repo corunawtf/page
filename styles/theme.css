@@ -1,0 +1,87 @@
+:root {
+  /* Colors */
+  --color-primary: white;
+  --color-secondary: black;
+  --color-dark: black;
+  --color-light: #d4d4d4;
+  --color-text: black;
+  --color-gray: #d4d4d4;
+
+  /* Fonts */
+  --font-family-display: system-ui, sans-serif;
+  --font-family-ui: system-ui, sans-serif;
+  --font-weight-bold: 800;
+
+  --border-weight: 2px;
+
+  .navbar-menu {
+    border: var(--border-weight) solid var(--color-secondary);
+  }
+
+  .navbar-menu a {
+    color: var(--color-secondary);
+  }
+
+  .theme h2,
+  .theme a {
+    color: var(--color-secondary);
+  }
+
+  .ly-blocks {
+    background-color: var(--color-primary);
+  }
+
+  .theme {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
+
+  .navbar-cta {
+    color: var(--color-primary);
+  }
+
+  .block-hero {
+    background-image: url("/files/hero.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px var(--color-primary);
+    bacakground-color: var(--color-primary);
+  }
+
+  .footer {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+
+    a {
+      color: var(--color-primary);
+    }
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .block-separator {
+    color: var(--color-secondary);
+    overflow: visible;
+    border-top: solid 1rem var(--color-gray);
+  }
+
+  .block-separator::after {
+    content: "wtf";
+    position: relative;
+    bottom: 4.4rem;
+    right: 10px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 8rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+  }
+
+  .speaker {
+    pointer-events: none;
+  }
+}

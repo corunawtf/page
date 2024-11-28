@@ -1,0 +1,284 @@
+menu:
+  - text: Eventos
+    url: '#events'
+    highlight: false
+  - text: Ponentes
+    url: '#speakers'
+    highlight: false
+  - text: Contacto
+    url: '#contact'
+    highlight: false
+blocks:
+  - type: hero
+    title: CoruñaWTF
+  - type: text
+    title: Bienvenido a Coruña Web Talks and Friends
+    id: about
+    theme: is-dark width-box box-fill
+    columns: false
+    text: "CoruñaWTF somos una comunidad de personas de A Coruña y alrededores, que se reúnen para compartir, aprender y disfrutar alrededor del desarrollo y diseño web. \r\n\r\nNuestro propósito es aprender juntos, intercambiar ideas, conectar con otras personas apasionadas por la web y, sobre todo, divertirnos en el camino.\r\n\r\nOrganizamos eventos mensuales para descubrir nuevas tecnologías o conceptos relacionados con la web y pasar un buen rato juntos. Si te interesa la web, ¡apúntate al próximo evento!"
+  - type: separator
+    width: is-full
+  - type: calendar
+    title: Nuestros eventos
+    id: events
+    days:
+      - title: Temporada 3
+        events:
+          - time: Septiembre
+            title: 'PROTOBUF Y gRPC. '
+            subtitle: Introducción a schema-driven development
+            description: >-
+              gRPC, protobuf y schema-driven development para crear productos
+              distribuidos, multilenguaje sin hand-written boilerplate
+            speakers:
+              - santi-jimenez
+          - time: Octubre
+            title: 'Vue en Acción: '
+            subtitle: Crea Interfaces Web Dinámicas
+            description: >-
+              Aprende a crear aplicaciones web dinámicas con Vue, usando la
+              Composition API, su sistema de reactividad y un ejemplo práctico
+              en tiempo rea
+            speakers:
+              - alan-luna
+          - time: Noviembre
+            title: Diseño Suizo
+            subtitle: Funcionalidad y Estética en la Web Moderna
+            description: >-
+              Descubre cómo el diseño suizo mejora la estética y funcionalidad
+              en la web moderna.
+            speakers:
+              - alex-brea
+          - time: Diciembre
+            title: Service Oriented Architecture con tRPC
+            description: >-
+              Descubre cómo cómo la librería tRPC hace más sencillo y eficiente
+              trabajar con servicios en la web
+            speakers:
+              - nestor-lopez
+      - title: Temporada 2
+        events:
+          - time: Septiembre
+            title: Elixir & Phoenix 101
+            description: >-
+              Introducción sobre Elixir, un lenguaje basado en Erlang y su
+              framework para desarrollo web, Phoenix.
+            speakers:
+              - carla-rodriguez
+          - time: Octubre
+            title: Self-hosting de servicios
+            description: >-
+              Todos los secretos para montar tu propio servidor, sin usar AWS o
+              Azure
+            speakers:
+              - miguel-camba
+          - time: Noviembre
+            title: 'Notion 101:'
+            subtitle: ' Desbloquea tu productividad'
+            description: >-
+              Cómo sacar el máximo provecho de Notion y el potencial de usar su
+              API y sus automatizaciones
+            speakers:
+              - alvaro-lozano
+          - time: Enero
+            title: Cómo triunfar en IT siendo mediocre
+            subtitle: Open space
+            description: >-
+              Open space en el que indagaremos sobre como triunfar en el sector
+              IT sin ser excepcional.
+            speakers:
+              - alberto-bardanca
+          - time: Febrero
+            title: Cómo hacer un buen diseño de UI
+            description: >-
+              Veremos qué hacer y qué no para que no te sangren los ojos al ver
+              una interfaz web
+            speakers:
+              - iria-hidalgo
+          - time: Marzo
+            title: Introducción a liveview native
+            speakers:
+              - miguel-camba
+          - time: Abril
+            title: 'Diseño Ético en la Era Digital: '
+            subtitle: ¿Qué Estamos Creando?
+            speakers:
+              - alex-brea
+          - time: Mayo
+            title: Unboxing Penpot 2.0
+            description: "Cómo esta herramienta de diseño colaborativo está cambiando la forma de hacer interfaces\r\n\r\n"
+            speakers:
+              - eva-marco
+          - time: Junio
+            title: 'Effect: TypeScript para producción'
+            description: La biblioteca estándar que falta para TypeScript
+            speakers:
+              - nestor-lopez
+      - title: Temporada 1
+        events:
+          - time: Enero
+            title: El Origen
+            description: >-
+              Open space para definirnos y conocernos. Tienes ganas de charlas,
+              talleres, ... es el momento y lugar de pedirlos
+            speakers:
+              - andrea
+              - yisus
+          - time: Febrero
+            title: Horror Stories
+            description: >-
+              Reunión informal para contar nuestras liadas y experiencias
+              "horribles"
+            speakers: []
+          - time: Marzo
+            title: 'Diseño y desarrollo. '
+            subtitle: De 0 a unicornio
+            description: >-
+              Charla introductoria sobre UX, roles y proceso de diseño. Aprende
+              a implementar un sistema de diseño y descubre recursos útiles
+            speakers:
+              - andrea
+          - time: Abril
+            title: Microfrontends en monorepo
+            description: Cómo crear y gestionar microfrontends en un solo repositorio
+            speakers:
+              - carlos-cortizas
+          - time: Mayo
+            title: Anatomía de webs perfectas desde el punto de vista SEO
+            description: >-
+              Errores que han cometido algunas empresas y como estos han
+              afectado a su posicionamiento web
+            speakers:
+              - sergio-castelo
+          - time: Junio
+            title: Los devs de la mesa cuadrada
+            subtitle: Buenas prácticas de desarrollo y met. ágiles
+            description: "Mesa redonda sobre buenas prácticas de desarrollo y metodologías ágiles\r\n\r\n"
+            speakers:
+              - pablo-castro
+              - pablo-cancelo
+              - yisus
+              - martin-torre
+  - type: separator
+    width: is-full
+  - type: speakers
+    title: Ponentes
+    description: >-
+      Estos son algunos de los magníficos ponentes que han compartido su
+      conocimiento con la comunidad
+    speakers:
+      - name: Alan Luna
+        id: alan-luna
+        image: /files/Alan.png
+        links: []
+      - name: Alberto S. Bardanca
+        id: alberto-bardanca
+        image: /files/Alberto.png
+        links: []
+      - name: Carlos Cortizas
+        id: carlos-cortizas
+        image: /files/Carlos.png
+        links: []
+      - name: Sergio Castelo
+        id: sergio-castelo
+        image: /files/Sergio.png
+        links: []
+      - name: Carla Rodríguez
+        id: carla-rodriguez
+        image: /files/Carla.png
+        links: []
+      - name: Miguel Camba
+        id: miguel-camba
+        image: /files/Miguel.png
+        links: []
+      - name: Álvaro Lozano
+        id: alvaro-lozano
+        image: /files/Alvaro.png
+        links: []
+      - name: Iria Hidalgo
+        id: iria-hidalgo
+        image: /files/Iria.png
+        links: []
+      - name: Alejandro Brea
+        id: alex-brea
+        image: /files/Alex.png
+        links: []
+      - name: Eva Marco
+        id: eva-marco
+        image: /files/Eva.png
+        links: []
+      - name: Néstor López
+        id: nestor-lopez
+        image: /files/Nestor.png
+        links: []
+      - name: Martín Torre
+        id: martin-torre
+        image: /files/Martin2.png
+        links: []
+      - name: Santiago Jimenez
+        id: santi-jimenez
+        image: /files/Santi.png
+        links: []
+      - name: Pablo Castro
+        id: pablo-castro
+        image: /files/Castro.png
+        links: []
+      - name: Brais Arias
+        id: brai-arias
+        image: /files/Brais.png
+        links: []
+      - name: Pablo Cancelo
+        id: pablo-cancelo
+        image: /files/Cancelo.png
+        links: []
+      - name: Andrea Magán
+        id: andrea
+        role: coorganizadora
+        image: /files/Andrea2.png
+        links: []
+      - name: Jesús "Yisus" Pérez-Roca
+        id: yisus
+        role: coorganizador
+        image: /files/Jesus.png
+        links: []
+  - type: separator
+    width: is-full
+  - type: location
+    title: Location
+    id: location
+    theme: is-primary width-box box-fill
+    embed: >
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5800.357785715247!2d-8.42243692345339!3d43.37328337111684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c5d9ed36627%3A0x2c7f602738ef290a!2sSngular%20A%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1732781620365!5m2!1ses!2ses"
+      width="600" height="450" style="border:0;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    directions:
+      - title: Sngular (antes Corunet)
+        description: 'Rúa Sor Joaquina, 6, Entreplanta'
+        icon: map-pin
+      - title: Bus
+        description: La línea más cercana es la 3/3A
+        icon: train-simple
+      - title: Coche
+        description: Hay aparcamiento gratuito por el paseo
+        icon: car
+  - type: contact
+    title: Contacto
+    id: contact
+    theme: is-primary width-box box-fill
+    items:
+      - title: Mail
+        links:
+          - url: 'mailto:hellocorunawtf@gmail.com'
+            icon: envelope
+            text: hellocorunawtf@gmail.comample.com
+      - title: Telegram
+        links:
+          - url: 'https://t.me/corunaWTF'
+            icon: telegram-logo
+            text: CorunaWTF
+metas:
+  image: ''
+url: /
+title: Home
