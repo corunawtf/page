@@ -164,6 +164,7 @@ blocks:
     width: is-full
   - type: speakers
     title: Ponentes
+    id: speakers
     description: >-
       Estos son algunos de los magníficos ponentes que han compartido su
       conocimiento con la comunidad
@@ -272,7 +273,7 @@ blocks:
         links:
           - url: 'mailto:hellocorunawtf@gmail.com'
             icon: envelope
-            text: hellocorunawtf@gmail.comample.com
+            text: hellocorunawtf@gmail.com
       - title: Telegram
         links:
           - url: 'https://t.me/corunaWTF'
