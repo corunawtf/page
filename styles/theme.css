@@ -41,7 +41,7 @@
   }
 
   .block-hero {
-    background-image: url("/files/hero.png");
+    background-image: url("../files/hero.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
