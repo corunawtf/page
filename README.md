@@ -4,7 +4,7 @@ Welcome to the official repository of **CoruñaWTF**, a local community in A Cor
 
 ## Technologies Used
 
-This project is built using [Lume](https://lume.land/) and the [TOP](https://github.com/top-framework/top) framework.
+This project is built using [Lume](https://lume.land/) and the [TOP](https://top.gal) framework.
 
 ## Installation and Usage
 
