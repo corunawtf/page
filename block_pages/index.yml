@@ -256,7 +256,7 @@ blocks:
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     directions:
       - title: Sngular (antes Corunet)
-        description: 'Rúa Sor Joaquina, 6, Entreplanta'
+        description: 'Rúa Sor Joaquina, 2, Bajo'
         icon: map-pin
       - title: Bus
         description: La línea más cercana es la 3/3A
