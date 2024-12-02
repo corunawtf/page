@@ -10,7 +10,7 @@ metas:
 state: pre-event
 cta:
   text: Apúntate al próximo evento
-  url: 'https://www.eventbrite.es/o/corunawtf-58544773663'
+  url: 'https://www.eventbrite.es/o/corunawtf-58544773663#events'
 footer:
   logo: /files/logos/logo.png
   copyright: "© 2024<br>\r\nCreated with [Lume](https://lume.land) & TOP Theme<br>\r\n\r\n[humans.txt](/humans.txt)\r\n"
