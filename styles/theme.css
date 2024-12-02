@@ -44,7 +44,8 @@
 
   .block-hero {
     background-image: url("https://corunawtf.github.io/page/files/hero.png");
-    background-position: bottom;
+    background-position-y: bottom;
+    background-position-x: right;
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: 1px 1px var(--color-primary);
@@ -72,6 +73,7 @@
 
   .block-separator::after {
     content: "wtf";
+    z-index: 2;
     position: relative;
     bottom: 4.4rem;
     right: 10px;
@@ -81,6 +83,20 @@
     font-size: 8rem;
     font-weight: var(--font-weight-bold);
     color: var(--color-gray);
+  }
+
+  .block-separator::before {
+    content: "_";
+    text-align: right;
+    width: 100%;
+    font-size: 8rem;
+    font-weight: var(--font-weight-bold);
+    color: #ffffff;
+    height: 0px;
+    display: block;
+    position: relative;
+    bottom: 9rem;
+    right: 7.8rem;
   }
 
   .speaker {
