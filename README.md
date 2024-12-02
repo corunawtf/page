@@ -44,4 +44,3 @@ If you'd like to contribute to the website's development, feel free to open an i
 ## License
 
 This project is distributed under the [MIT License](LICENSE).
-```  
