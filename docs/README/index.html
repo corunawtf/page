@@ -2,14 +2,51 @@
 <html><head><meta property="og:type" content="website">
 <meta property="og:site_name" content="TRGCON 24">
 <meta property="og:locale" content="es">
-<meta property="og:url" content="https://corunawtf.github.io/page/README/">
-<meta property="og:image" content="https://corunawtf.github.io/page/files/img-home.png">
+<meta property="og:url" content="http://localhost/README/">
+<meta property="og:image" content="http://localhost/files/img-home.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#00ab7d">
 <meta name="generator" content="Lume v2.4.2">
-<link rel="icon" sizes="48x48" href="/page/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/page/apple-touch-icon.png">
-<link rel="icon" sizes="any" href="/page/files/favicon.svg" type="image/svg+xml">
-</head><body><h1>Our web, our rules</h1>
-<p>Web of CoruñaWTF</p>
+<link rel="icon" sizes="48x48" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" sizes="any" href="/files/favicon.svg" type="image/svg+xml">
+</head><body><h1>CoruñaWTF Website</h1>
+<p>Welcome to the official repository of <strong>CoruñaWTF</strong>, a local community in A Coruña focused on web development and design.</p>
+<h2>Technologies Used</h2>
+<p>This project is built using <a href="https://lume.land/">Lume</a> and the <a href="https://top.gal">TOP</a> framework.</p>
+<h2>Installation and Usage</h2>
+<h3>Prerequisites</h3>
+<ul>
+<li><a href="https://deno.land/">Deno</a> installed on your system.</li>
+</ul>
+<h3>Steps to Start the Project</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre><code class="language-bash">git clone https://github.com/corunawtf/web.git  
+cd web  
+</code></pre>
+</li>
+<li>
+<p>Install dependencies:</p>
+<pre><code class="language-bash">deno task lume
+</code></pre>
+</li>
+<li>
+<p>Start the development server:</p>
+<pre><code class="language-bash">deno task serve
+</code></pre>
+</li>
+<li>
+<p>Open the site in your browser at: <code>http://localhost:3000</code>.</p>
+</li>
+</ol>
+<h3>Generate Production Files</h3>
+<p>To build the site and generate static files in the <code>/docs</code> folder:</p>
+<pre><code class="language-bash">deno task build
+</code></pre>
+<h2>Contribute</h2>
+<p>If you'd like to contribute to the website's development, feel free to open an issue or submit a pull request with your suggestions.</p>
+<h2>License</h2>
+<p>This project is distributed under the <a href="LICENSE">MIT License</a>.</p>
 </body></html>

@@ -23,16 +23,147 @@ blocks:
     title: Nuestros eventos
     id: events
     days:
+      - title: Temporada 4
+        events:
+          - time: Mayo
+            title: 'Weave.js'
+            subtitle: Crear un editor visual colaborativo no debería ser tan difícil
+            description: >-
+              Cómo construir un editor visual colaborativo en tiempo real
+              sin que el proceso se convierta en una pesadilla técnica.
+            speakers:
+              - jesus-pineiro
+          - time: Abril
+            title: 'Ver sin ver'
+            subtitle: Accesibilidad, lectores de pantalla e IA
+            description: >-
+              Segunda charla de accesibilidad en colaboración con GDG A
+              Coruña, esta vez centrada en el papel de la IA en los
+              lectores de pantalla.
+            speakers:
+              - carlos-garrido
+          - time: Marzo
+            title: Brainstorming / Meet & Greet
+            description: >-
+              Nos reunimos para pensar entre todos las temáticas y charlas
+              de la siguiente temporada de CoruñaWTF.
+            speakers: []
+          - time: Febrero
+            title: 'A11y en la práctica'
+            subtitle: Lo que tu lector de pantalla sabe de tu web (y tú no)
+            description: >-
+              Charla en colaboración con GDG A Coruña sobre accesibilidad
+              real: qué información recibe un lector de pantalla de tu web
+              y qué se nos suele escapar.
+            speakers:
+              - carlos-garrido
+          - time: Enero
+            title: Module Federation y la Infraestructura de Superposición
+            description: >-
+              Cómo Module Federation permite componer aplicaciones frontend
+              distribuidas sin sacrificar independencia entre equipos.
+            speakers:
+              - nestor-lopez
+          - time: Noviembre
+            title: 'Del Saas al Yo-aaS'
+            subtitle: Self-hosting para recuperar la autonomía digital
+            description: >-
+              Todos los secretos para recuperar la autonomía digital
+              montando tu propio servidor de servicios.
+            speakers:
+              - ignacio-esposito
+          - time: Octubre
+            title: 'Unha pinga de Erlang/Elixir para salvar a Eustaquia'
+            description: >-
+              Introducción a Erlang/Elixir a través de una historia práctica
+              sobre concurrencia y tolerancia a fallos.
+            speakers:
+              - icia-carro
+          - time: Septiembre
+            title: 'Cómo llevarse bien con un diseñador'
+            subtitle: Un vistazo a los fundamentos del diseño gráfico
+            description: >-
+              Los fundamentos del diseño gráfico explicados para que
+              programadores y diseñadores se entiendan mejor en el día a día.
+            speakers:
+              - yago-concejo
       - title: Temporada 3
         events:
-          - time: Septiembre
-            title: 'PROTOBUF Y gRPC. '
-            subtitle: Introducción a schema-driven development
+          - time: Junio
+            title: '"Last round: conversaciones en comunidad"'
             description: >-
-              gRPC, protobuf y schema-driven development para crear productos
-              distribuidos, multilenguaje sin hand-written boilerplate
+              Cierre de temporada en colaboración con otras comunidades tech
+              de A Coruña: Python Coruña, GPUL, GDG Coruña, SysArmy Galicia,
+              WordPress Coruña, CoruñaJUG, Bricolabs y más.
+            speakers: []
+          - time: Junio
+            title: Un framework para que tu side project no se quede en side...
+            subtitle: sino que se convierta en project
+            description: >-
+              Cómo dar el salto de side project a proyecto real sin que se
+              quede a medias en el camino.
             speakers:
-              - santi-jimenez
+              - david-bonilla
+          - time: Mayo
+            title: 'Javascript Inside: '
+            subtitle: Meet the people behind the spec
+            description: >-
+              Evento especial en colaboración con Igalia y Kelea: varios
+              miembros del comité TC39 comparten su visión sobre el presente
+              y el futuro de JavaScript.
+            speakers: []
+          - time: Mayo
+            title: Cómo prepararte para brillar en entrevistas tech
+            description: >-
+              Consejos prácticos para preparar tu CV, tu perfil de LinkedIn,
+              las entrevistas técnicas y la negociación de la oferta final.
+            speakers:
+              - ilda-neta
+          - time: Abril
+            title: 'Tyrian: '
+            subtitle: Navegando entre SPAs y juegos indie con Scala.js
+            description: >-
+              Tyrian, inspirado en Elm y hecho para Scala.js, une desarrollo
+              funcional y flexibilidad para SPAs y videojuegos indie.
+            speakers:
+              - david-gil
+          - time: Marzo
+            title: Brainstorming / Meet & Greet
+            description: >-
+              Nos reunimos para pensar entre todos las temáticas y charlas
+              de la siguiente temporada de CoruñaWTF.
+            speakers: []
+          - time: Febrero
+            title: From Code to Cloud
+            subtitle: "A Beginner's Journey with Docker and Railway"
+            description: >-
+              Aprende a usar Docker y Railway para crear y desplegar apps.
+              Ideal para principiantes que quieren llevar su código a la nube.
+            speakers:
+              - roberto-garcia
+          - time: Enero
+            title: Programando la resistencia
+            subtitle: Tecnologías web para empoderar el activismo
+            description: >-
+              Descubre cómo el código puede empoderar movimientos sociales,
+              proteger activistas y promover la soberanía digital.
+            speakers:
+              - carol-gonzalez
+          - time: Diciembre
+            title: Service Oriented Architecture con tRPC
+            description: >-
+              Descubre cómo cómo la librería tRPC hace más sencillo y eficiente
+              trabajar con servicios en la web
+            speakers:
+              - nestor-lopez
+          - time: Noviembre
+            title: Diseño Suizo
+            subtitle: Funcionalidad y Estética en la Web Moderna
+            description: >-
+              Descubre cómo el diseño suizo mejora la estética y funcionalidad
+              en la web moderna.
+            speakers:
+              - alex-brea
           - time: Octubre
             title: 'Vue en Acción: '
             subtitle: Crea Interfaces Web Dinámicas
@@ -42,45 +173,42 @@ blocks:
               en tiempo rea
             speakers:
               - alan-luna
-          - time: Noviembre
-            title: Diseño Suizo
-            subtitle: Funcionalidad y Estética en la Web Moderna
+          - time: Septiembre
+            title: 'PROTOBUF Y gRPC. '
+            subtitle: Introducción a schema-driven development
             description: >-
-              Descubre cómo el diseño suizo mejora la estética y funcionalidad
-              en la web moderna.
+              gRPC, protobuf y schema-driven development para crear productos
+              distribuidos, multilenguaje sin hand-written boilerplate
             speakers:
-              - alex-brea
-          - time: Diciembre
-            title: Service Oriented Architecture con tRPC
-            description: >-
-              Descubre cómo cómo la librería tRPC hace más sencillo y eficiente
-              trabajar con servicios en la web
-            speakers:
-              - nestor-lopez
+              - santi-jimenez
       - title: Temporada 2
         events:
-          - time: Septiembre
-            title: Elixir & Phoenix 101
-            description: >-
-              Introducción sobre Elixir, un lenguaje basado en Erlang y su
-              framework para desarrollo web, Phoenix.
+          - time: Junio
+            title: 'Effect: TypeScript para producción'
+            description: La biblioteca estándar que falta para TypeScript
             speakers:
-              - carla-rodriguez
-          - time: Octubre
-            title: Self-hosting de servicios
-            description: >-
-              Todos los secretos para montar tu propio servidor, sin usar AWS o
-              Azure
+              - nestor-lopez
+          - time: Mayo
+            title: Unboxing Penpot 2.0
+            description: "Cómo esta herramienta de diseño colaborativo está cambiando la forma de hacer interfaces\r\n\r\n"
+            speakers:
+              - eva-marco
+          - time: Abril
+            title: 'Diseño Ético en la Era Digital: '
+            subtitle: ¿Qué Estamos Creando?
+            speakers:
+              - alex-brea
+          - time: Marzo
+            title: Introducción a liveview native
             speakers:
               - miguel-camba
-          - time: Noviembre
-            title: 'Notion 101:'
-            subtitle: ' Desbloquea tu productividad'
+          - time: Febrero
+            title: Cómo hacer un buen diseño de UI
             description: >-
-              Cómo sacar el máximo provecho de Notion y el potencial de usar su
-              API y sus automatizaciones
+              Veremos qué hacer y qué no para que no te sangren los ojos al ver
+              una interfaz web
             speakers:
-              - alvaro-lozano
+              - iria-hidalgo
           - time: Enero
             title: Cómo triunfar en IT siendo mediocre
             subtitle: Open space
@@ -89,68 +217,30 @@ blocks:
               IT sin ser excepcional.
             speakers:
               - alberto-bardanca
-          - time: Febrero
-            title: Cómo hacer un buen diseño de UI
+          - time: Noviembre
+            title: 'Notion 101:'
+            subtitle: ' Desbloquea tu productividad'
             description: >-
-              Veremos qué hacer y qué no para que no te sangren los ojos al ver
-              una interfaz web
+              Cómo sacar el máximo provecho de Notion y el potencial de usar su
+              API y sus automatizaciones
             speakers:
-              - iria-hidalgo
-          - time: Marzo
-            title: Introducción a liveview native
+              - alvaro-lozano
+          - time: Octubre
+            title: Self-hosting de servicios
+            description: >-
+              Todos los secretos para montar tu propio servidor, sin usar AWS o
+              Azure
             speakers:
               - miguel-camba
-          - time: Abril
-            title: 'Diseño Ético en la Era Digital: '
-            subtitle: ¿Qué Estamos Creando?
+          - time: Septiembre
+            title: Elixir & Phoenix 101
+            description: >-
+              Introducción sobre Elixir, un lenguaje basado en Erlang y su
+              framework para desarrollo web, Phoenix.
             speakers:
-              - alex-brea
-          - time: Mayo
-            title: Unboxing Penpot 2.0
-            description: "Cómo esta herramienta de diseño colaborativo está cambiando la forma de hacer interfaces\r\n\r\n"
-            speakers:
-              - eva-marco
-          - time: Junio
-            title: 'Effect: TypeScript para producción'
-            description: La biblioteca estándar que falta para TypeScript
-            speakers:
-              - nestor-lopez
+              - carla-rodriguez
       - title: Temporada 1
         events:
-          - time: Enero
-            title: El Origen
-            description: >-
-              Open space para definirnos y conocernos. Tienes ganas de charlas,
-              talleres, ... es el momento y lugar de pedirlos
-            speakers:
-              - andrea
-              - yisus
-          - time: Febrero
-            title: Horror Stories
-            description: >-
-              Reunión informal para contar nuestras liadas y experiencias
-              "horribles"
-            speakers: []
-          - time: Marzo
-            title: 'Diseño y desarrollo. '
-            subtitle: De 0 a unicornio
-            description: >-
-              Charla introductoria sobre UX, roles y proceso de diseño. Aprende
-              a implementar un sistema de diseño y descubre recursos útiles
-            speakers:
-              - andrea
-          - time: Abril
-            title: Microfrontends en monorepo
-            description: Cómo crear y gestionar microfrontends en un solo repositorio
-            speakers:
-              - carlos-cortizas
-          - time: Mayo
-            title: Anatomía de webs perfectas desde el punto de vista SEO
-            description: >-
-              Errores que han cometido algunas empresas y como estos han
-              afectado a su posicionamiento web
-            speakers:
-              - sergio-castelo
           - time: Junio
             title: Los devs de la mesa cuadrada
             subtitle: Buenas prácticas de desarrollo y met. ágiles
@@ -160,6 +250,40 @@ blocks:
               - pablo-cancelo
               - yisus
               - martin-torre
+          - time: Mayo
+            title: Anatomía de webs perfectas desde el punto de vista SEO
+            description: >-
+              Errores que han cometido algunas empresas y como estos han
+              afectado a su posicionamiento web
+            speakers:
+              - sergio-castelo
+          - time: Abril
+            title: Microfrontends en monorepo
+            description: Cómo crear y gestionar microfrontends en un solo repositorio
+            speakers:
+              - carlos-cortizas
+          - time: Marzo
+            title: 'Diseño y desarrollo. '
+            subtitle: De 0 a unicornio
+            description: >-
+              Charla introductoria sobre UX, roles y proceso de diseño. Aprende
+              a implementar un sistema de diseño y descubre recursos útiles
+            speakers:
+              - andrea
+          - time: Febrero
+            title: Horror Stories
+            description: >-
+              Reunión informal para contar nuestras liadas y experiencias
+              "horribles"
+            speakers: []
+          - time: Enero
+            title: El Origen
+            description: >-
+              Open space para definirnos y conocernos. Tienes ganas de charlas,
+              talleres, ... es el momento y lugar de pedirlos
+            speakers:
+              - andrea
+              - yisus
   - type: separator
     width: is-full
   - type: speakers
@@ -242,6 +366,58 @@ blocks:
         id: yisus
         role: coorganizador
         image: /files/Jesus.png
+        links: []
+      - name: María Carolina González Gil
+        id: carol-gonzalez
+        image: /files/Carol.png
+        links:
+          - icon: github-logo
+            url: 'https://github.com/MilkyRaven'
+      - name: Roberto García
+        id: roberto-garcia
+        image: /files/Rober.png
+        links:
+          - icon: github-logo
+            url: 'https://github.com/soulcodex'
+      - name: David Gil
+        id: david-gil
+        image: /files/Gil.png
+        links:
+          - icon: github-logo
+            url: 'https://github.com/dagmendez'
+      - name: Ilda Neta
+        id: ilda-neta
+        image: /files/Ilda.png
+        links:
+          - icon: github-logo
+            url: 'https://github.com/ildaneta'
+      - name: David Bonilla
+        id: david-bonilla
+        image: /files/Bonilla.png
+        links:
+          - icon: github-logo
+            url: 'https://github.com/dbonillaf'
+      - name: Yago Concejo
+        id: yago-concejo
+        image: /files/Yago.png
+        links: []
+      - name: Icía Carro Barallobre
+        id: icia-carro
+        image: /files/Icia.png
+        links: []
+      - name: Ignacio Espósito
+        id: ignacio-esposito
+        image: /files/Nacho.png
+        links:
+          - icon: github-logo
+            url: 'https://github.com/qwor01'
+      - name: Carlos Garrido Marín
+        id: carlos-garrido
+        image: /files/Garrido.png
+        links: []
+      - name: Jesús Manuel Piñeiro Cid
+        id: jesus-pineiro
+        image: /files/Pineiro.png
         links: []
   - type: separator
     width: is-full
