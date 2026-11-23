@@ -1,0 +1,498 @@
+[
+  {
+    "season": "Temporada 4",
+    "title": "Weave.js",
+    "subtitle": "Crear un editor visual colaborativo no debería ser tan difícil",
+    "description": "Cómo construir un editor visual colaborativo en tiempo real sin que el proceso se convierta en una pesadilla técnica.",
+    "speakers": [
+      "jesus-pineiro"
+    ],
+    "month": "Mayo",
+    "date": "2026-05-28",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-weavejs-crear-un-editor-visual-colaborativo-no-deberia-ser-tan-dificil-1974627948349",
+    "slides": null
+  },
+  {
+    "season": "Temporada 4",
+    "title": "Ver sin ver",
+    "subtitle": "Accesibilidad, lectores de pantalla e IA",
+    "description": "Segunda charla de accesibilidad en colaboración con GDG A Coruña, esta vez centrada en el papel de la IA en los lectores de pantalla.",
+    "speakers": [
+      "carlos-garrido"
+    ],
+    "month": "Abril",
+    "date": "2026-04-23",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-ver-sin-ver-accesibilidad-lectores-de-pantalla-e-ia-1986800456649",
+    "slides": null
+  },
+  {
+    "season": "Temporada 4",
+    "title": "Brainstorming / Meet & Greet",
+    "subtitle": "",
+    "description": "Nos reunimos para pensar entre todos las temáticas y charlas de la siguiente temporada de CoruñaWTF.",
+    "speakers": [],
+    "month": "Marzo",
+    "date": "2025-03-27",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/brainstorming-meet-greet-tickets-1273672832729",
+    "slides": null
+  },
+  {
+    "season": "Temporada 4",
+    "title": "A11y en la práctica",
+    "subtitle": "Lo que tu lector de pantalla sabe de tu web (y tú no)",
+    "description": "Charla en colaboración con GDG A Coruña sobre accesibilidad real: qué información recibe un lector de pantalla de tu web y qué se nos suele escapar.",
+    "speakers": [
+      "carlos-garrido"
+    ],
+    "month": "Febrero",
+    "date": "2026-02-12",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-a11y-en-la-practica-lo-que-tu-lector-de-pantalla-sabe-de-tu-web-y-tu-no-1980634707728",
+    "slides": null
+  },
+  {
+    "season": "Temporada 4",
+    "title": "Module Federation y la Infraestructura de Superposición",
+    "subtitle": "",
+    "description": "Cómo Module Federation permite componer aplicaciones frontend distribuidas sin sacrificar independencia entre equipos.",
+    "speakers": [
+      "nestor-lopez"
+    ],
+    "month": "Enero",
+    "date": "2026-01-15",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-module-federation-y-la-infraestructura-de-superposicion-1978936047991",
+    "slides": null
+  },
+  {
+    "season": "Temporada 4",
+    "title": "Del Saas al Yo-aaS",
+    "subtitle": "Self-hosting para recuperar la autonomía digital",
+    "description": "Todos los secretos para recuperar la autonomía digital montando tu propio servidor de servicios.",
+    "speakers": [
+      "ignacio-esposito"
+    ],
+    "month": "Noviembre",
+    "date": "2025-11-06",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-del-saas-al-yo-aas-self-hosting-para-recuperar-la-autonomia-digital-1836847653779",
+    "slides": "https://github.com/user-attachments/files/23413833/Del.Saas.al.Yo-aaS.Self-hosting.para.recuperar.la.autonomia.digital.pdf"
+  },
+  {
+    "season": "Temporada 4",
+    "title": "Unha pinga de Erlang/Elixir para salvar a Eustaquia",
+    "subtitle": "",
+    "description": "Introducción a Erlang/Elixir a través de una historia práctica sobre concurrencia y tolerancia a fallos.",
+    "speakers": [
+      "icia-carro"
+    ],
+    "month": "Octubre",
+    "date": "2025-10-09",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-unha-pinga-de-erlangelixir-para-salvar-a-eustaquia-1761085206259",
+    "slides": null
+  },
+  {
+    "season": "Temporada 4",
+    "title": "Cómo llevarse bien con un diseñador",
+    "subtitle": "Un vistazo a los fundamentos del diseño gráfico",
+    "description": "Los fundamentos del diseño gráfico explicados para que programadores y diseñadores se entiendan mejor en el día a día.",
+    "speakers": [
+      "yago-concejo"
+    ],
+    "month": "Septiembre",
+    "date": "2025-09-11",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-como-llevarse-bien-con-un-disenador-un-vistazo-a-los-fundamentos-1583019266239",
+    "slides": null
+  },
+  {
+    "season": "Temporada 3",
+    "title": "\"Last round: conversaciones en comunidad\"",
+    "subtitle": "",
+    "description": "Cierre de temporada en colaboración con otras comunidades tech de A Coruña: Python Coruña, GPUL, GDG Coruña, SysArmy Galicia, WordPress Coruña, CoruñaJUG, Bricolabs y más.",
+    "speakers": [],
+    "month": "Junio",
+    "date": "2025-06-26",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-last-round-conversaciones-en-comunidad-1419465001029",
+    "slides": null
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Un framework para que tu side project no se quede en side...",
+    "subtitle": "sino que se convierta en project",
+    "description": "Cómo dar el salto de side project a proyecto real sin que se quede a medias en el camino.",
+    "speakers": [
+      "david-bonilla"
+    ],
+    "month": "Junio",
+    "date": "2025-06-05",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-un-framework-para-que-tu-side-project-no-se-quede-en-side-1378774133549",
+    "slides": "https://github.com/user-attachments/files/20638212/Supermono.pdf"
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Javascript Inside",
+    "subtitle": "Meet the people behind the spec",
+    "description": "Evento especial en colaboración con Igalia y Kelea: varios miembros del comité TC39 comparten su visión sobre el presente y el futuro de JavaScript.",
+    "speakers": [],
+    "month": "Mayo",
+    "date": "2025-05-29",
+    "time": "18:30",
+    "url": "https://www.eventbrite.es/e/javascript-inside-meet-the-people-behind-the-spec-tickets-1367515899869",
+    "slides": null
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Cómo prepararte para brillar en entrevistas tech",
+    "subtitle": "",
+    "description": "Consejos prácticos para preparar tu CV, tu perfil de LinkedIn, las entrevistas técnicas y la negociación de la oferta final.",
+    "speakers": [
+      "ilda-neta"
+    ],
+    "month": "Mayo",
+    "date": "2025-05-22",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-como-prepararte-para-brillar-en-entrevistas-tech-1335385537089",
+    "slides": "https://github.com/user-attachments/files/20451352/Como.brillar.en.entrevistas.tech.-.Ilda.Neta.pdf"
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Tyrian",
+    "subtitle": "Navegando entre SPAs y juegos indie con Scala.js",
+    "description": "Tyrian, inspirado en Elm y hecho para Scala.js, une desarrollo funcional y flexibilidad para SPAs y videojuegos indie.",
+    "speakers": [
+      "david-gil"
+    ],
+    "month": "Abril",
+    "date": "2025-04-10",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-tyrian-navegando-entre-spas-y-juegos-indie-con-scalajs-1308237797469",
+    "slides": "https://github.com/user-attachments/files/19736811/Tyrian.e.Indigo.pdf"
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Brainstorming / Meet & Greet",
+    "subtitle": "",
+    "description": "Nos reunimos para pensar entre todos las temáticas y charlas de la siguiente temporada de CoruñaWTF.",
+    "speakers": [],
+    "month": "Marzo",
+    "date": "2026-03-26",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/brainstorming-meet-greet-tickets-1984875309482",
+    "slides": null
+  },
+  {
+    "season": "Temporada 3",
+    "title": "From Code to Cloud",
+    "subtitle": "A Beginner's Journey with Docker and Railway",
+    "description": "Aprende a usar Docker y Railway para crear y desplegar apps. Ideal para principiantes que quieren llevar su código a la nube.",
+    "speakers": [
+      "roberto-garcia"
+    ],
+    "month": "Febrero",
+    "date": "2025-02-27",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-from-code-to-cloud-a-beginners-journey-with-docker-and-railway-1230673420329",
+    "slides": "https://www.canva.com/design/DAGdJaGSuV4/G9jT2GW2uGzfIw644YS40A/watch"
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Programando la resistencia",
+    "subtitle": "Tecnologías web para empoderar el activismo",
+    "description": "Descubre cómo el código puede empoderar movimientos sociales, proteger activistas y promover la soberanía digital.",
+    "speakers": [
+      "carol-gonzalez"
+    ],
+    "month": "Enero",
+    "date": "2025-01-16",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-programando-la-resistencia-tecnologias-web-para-empoderar-el-activismo-1134524054989",
+    "slides": "https://github.com/user-attachments/files/24021282/Progra.r.mando.la.resistencia.pdf"
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Service Oriented Architecture con tRPC",
+    "subtitle": "",
+    "description": "Descubre cómo cómo la librería tRPC hace más sencillo y eficiente trabajar con servicios en la web",
+    "speakers": [
+      "nestor-lopez"
+    ],
+    "month": "Diciembre",
+    "date": "2024-12-12",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-service-oriented-architecture-con-trpc-1098184291779",
+    "slides": "https://github.com/user-attachments/files/18151660/trpc-soa.pdf"
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Diseño Suizo",
+    "subtitle": "Funcionalidad y Estética en la Web Moderna",
+    "description": "Descubre cómo el diseño suizo mejora la estética y funcionalidad en la web moderna.",
+    "speakers": [
+      "alex-brea"
+    ],
+    "month": "Noviembre",
+    "date": "2024-11-21",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-diseno-suizo-funcionalidad-y-estetica-en-la-web-moderna-1058393727129",
+    "slides": null
+  },
+  {
+    "season": "Temporada 3",
+    "title": "Vue en Acción",
+    "subtitle": "Crea Interfaces Web Dinámicas",
+    "description": "Aprende a crear aplicaciones web dinámicas con Vue, usando la Composition API, su sistema de reactividad y un ejemplo práctico en tiempo rea",
+    "speakers": [
+      "alan-luna"
+    ],
+    "month": "Octubre",
+    "date": "2024-10-17",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-vue-en-accion-crea-interfaces-web-dinamicas-1041197017307",
+    "slides": null
+  },
+  {
+    "season": "Temporada 3",
+    "title": "PROTOBUF Y gRPC.",
+    "subtitle": "Introducción a schema-driven development",
+    "description": "gRPC, protobuf y schema-driven development para crear productos distribuidos, multilenguaje sin hand-written boilerplate",
+    "speakers": [
+      "santi-jimenez"
+    ],
+    "month": "Septiembre",
+    "date": "2024-09-12",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-protobuf-y-grpc-introduccion-a-schema-driven-development-998635434467",
+    "slides": "https://github.com/user-attachments/files/17324243/Introduction.to.gRPC.and.Schema.driven.development.pdf"
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Effect: TypeScript para producción",
+    "subtitle": "",
+    "description": "La biblioteca estándar que falta para TypeScript",
+    "speakers": [
+      "nestor-lopez"
+    ],
+    "month": "Junio",
+    "date": "2024-06-20",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-effect-typescript-para-produccion-923838565017",
+    "slides": null
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Unboxing Penpot 2.0",
+    "subtitle": "",
+    "description": "Cómo esta herramienta de diseño colaborativo está cambiando la forma de hacer interfaces",
+    "speakers": [
+      "eva-marco"
+    ],
+    "month": "Mayo",
+    "date": "2024-05-30",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-unboxing-penpot-20-906351189807",
+    "slides": null
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Diseño Ético en la Era Digital",
+    "subtitle": "¿Qué Estamos Creando?",
+    "description": "",
+    "speakers": [
+      "alex-brea"
+    ],
+    "month": "Abril",
+    "url": null,
+    "slides": "https://drive.google.com/file/d/1-HXYZROYgOK6JVEPfXUwEwRZd8BKz0zo/view?usp=sharing"
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Introducción a liveview native",
+    "subtitle": "",
+    "description": "",
+    "speakers": [
+      "miguel-camba"
+    ],
+    "month": "Marzo",
+    "url": null,
+    "slides": null
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Cómo hacer un buen diseño de UI",
+    "subtitle": "",
+    "description": "Veremos qué hacer y qué no para que no te sangren los ojos al ver una interfaz web",
+    "speakers": [
+      "iria-hidalgo"
+    ],
+    "month": "Febrero",
+    "date": "2024-02-29",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-como-hacer-un-buen-diseno-de-ui-814217465357",
+    "slides": "https://docs.google.com/presentation/d/17NIilIttQATifjcWgAArlC61oD2QlhjlEl-uE0NKDJw/mobilepresent?slide=id.g1340ad11090_0_90"
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Cómo triunfar en IT siendo mediocre",
+    "subtitle": "Open space",
+    "description": "Open space en el que indagaremos sobre como triunfar en el sector IT sin ser excepcional.",
+    "speakers": [
+      "alberto-bardanca"
+    ],
+    "month": "Enero",
+    "date": "2024-01-18",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-open-space-como-triunfar-en-it-siendo-mediocre-793530289457",
+    "slides": null
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Notion 101",
+    "subtitle": "Desbloquea tu productividad",
+    "description": "Cómo sacar el máximo provecho de Notion y el potencial de usar su API y sus automatizaciones",
+    "speakers": [
+      "alvaro-lozano"
+    ],
+    "month": "Noviembre",
+    "date": "2023-11-09",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-notion-101-desbloquea-tu-productividad-738094680057",
+    "slides": null
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Self-hosting de servicios",
+    "subtitle": "",
+    "description": "Todos los secretos para montar tu propio servidor, sin usar AWS o Azure",
+    "speakers": [
+      "miguel-camba"
+    ],
+    "month": "Octubre",
+    "date": "2023-10-05",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-self-hosting-de-servicios-727861151297",
+    "slides": null
+  },
+  {
+    "season": "Temporada 2",
+    "title": "Elixir & Phoenix 101",
+    "subtitle": "",
+    "description": "Introducción sobre Elixir, un lenguaje basado en Erlang y su framework para desarrollo web, Phoenix.",
+    "speakers": [
+      "carla-rodriguez"
+    ],
+    "month": "Septiembre",
+    "date": "2023-09-14",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-elixir-phoenix-101-708559469447",
+    "slides": null
+  },
+  {
+    "season": "Temporada 1",
+    "title": "Los devs de la mesa cuadrada",
+    "subtitle": "Buenas prácticas de desarrollo y met. ágiles",
+    "description": "Mesa redonda sobre buenas prácticas de desarrollo y metodologías ágiles",
+    "speakers": [
+      "pablo-castro",
+      "pablo-cancelo",
+      "yisus",
+      "martin-torre"
+    ],
+    "month": "Junio",
+    "date": "2023-06-15",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-los-devs-de-la-mesa-cuadrada-buenas-practicas-de-desarrollo-y-met-agiles-651593863787",
+    "slides": null
+  },
+  {
+    "season": "Temporada 1",
+    "title": "Anatomía de webs perfectas desde el punto de vista SEO",
+    "subtitle": "",
+    "description": "Errores que han cometido algunas empresas y como estos han afectado a su posicionamiento web",
+    "speakers": [
+      "sergio-castelo"
+    ],
+    "month": "Mayo",
+    "date": "2023-05-09",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-anatomia-de-webs-perfectas-desde-el-punto-de-vista-seo-624246266387",
+    "slides": "https://github.com/corunawtf/.github/files/11486685/presentacionseowtf.pdf"
+  },
+  {
+    "season": "Temporada 1",
+    "title": "Microfrontends en monorepo",
+    "subtitle": "",
+    "description": "Cómo crear y gestionar microfrontends en un solo repositorio",
+    "speakers": [
+      "carlos-cortizas"
+    ],
+    "month": "Abril",
+    "date": "2023-04-11",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-microfrontends-en-monorepo-598607389817",
+    "slides": "https://github.com/corunawtf/.github/files/12034231/Microfrontends.in.a.monorepo.pdf"
+  },
+  {
+    "season": "Temporada 1",
+    "title": "Diseño y desarrollo.",
+    "subtitle": "De 0 a unicornio",
+    "description": "Charla introductoria sobre UX, roles y proceso de diseño. Aprende a implementar un sistema de diseño y descubre recursos útiles",
+    "speakers": [
+      "andrea"
+    ],
+    "month": "Marzo",
+    "date": "2023-03-09",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-diseno-y-desarrollo-de-0-a-unicornio-558992751367",
+    "slides": "https://www.canva.com/design/DAFa61pjkYE/dJaVkq6nHhrElSxKfLZ8xQ/view"
+  },
+  {
+    "season": "Temporada 1",
+    "title": "Horror Stories",
+    "subtitle": "",
+    "description": "Reunión informal para contar nuestras liadas y experiencias \"horribles\"",
+    "speakers": [],
+    "month": "Febrero",
+    "date": "2023-02-07",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-horror-stories-521144436037",
+    "slides": null
+  },
+  {
+    "season": "Temporada 1",
+    "title": "El Origen",
+    "subtitle": "",
+    "description": "Open space para definirnos y conocernos. Tienes ganas de charlas, talleres, ... es el momento y lugar de pedirlos",
+    "speakers": [
+      "andrea",
+      "yisus"
+    ],
+    "month": "Enero",
+    "date": "2023-01-17",
+    "time": "19:00",
+    "url": "https://www.eventbrite.es/e/entradas-el-origen-492863366597",
+    "slides": null
+  },
+  {
+    "season": "Temporada 5",
+    "title": "¿Y si la interfaz ya no es web?",
+    "subtitle": "",
+    "description": "",
+    "speakers": [
+      {
+        "name": "Jorge Teixeira Crespo"
+      }
+    ],
+    "month": "Septiembre",
+    "date": "2026-09-10",
+    "time": "19:30",
+    "url": "https://www.eventbrite.es/e/entradas-y-si-la-interfaz-ya-no-es-web-1999268898093",
+    "slides": null
+  }
+]

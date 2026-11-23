@@ -1,0 +1,22 @@
+{
+  "title": "CoruñaWTF",
+  "description": "Comunidad de A Coruña sobre desarrollo y diseño web. Charlas y encuentros mensuales.",
+  "organization": "CoruñaWTF",
+  "origin": "https://corunawtf.github.io",
+  "base": "/page",
+  "timezone": "Europe/Madrid",
+  "license": "CC-BY-4.0",
+  "lumaCalendarId": "cal-kIWuABnuAFTEk09",
+  "lumaUrl": "https://luma.com/corunawtf",
+  "seasonOffset": 2021,
+  "coversFrom": "2024-09-01",
+  "venue": {
+    "venue": "Sngular A Coruña",
+    "address": {
+      "street": "Rúa Sor Joaquina, 2, Bajo",
+      "postalCode": "15011",
+      "locality": "A Coruña",
+      "country": "ES"
+    }
+  }
+}
