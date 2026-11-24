@@ -1,0 +1,56 @@
+{
+  "tagline": "Coruña Web Talks and Friends",
+  "about": [
+    "CoruñaWTF somos una comunidad de personas de A Coruña y alrededores, que se reúnen para compartir, aprender y disfrutar alrededor del desarrollo y diseño web.",
+    "Nuestro propósito es aprender juntos, intercambiar ideas, conectar con otras personas apasionadas por la web y, sobre todo, divertirnos en el camino.",
+    "Organizamos eventos mensuales para descubrir nuevas tecnologías o conceptos relacionados con la web y pasar un buen rato juntos. Si te interesa la web, ¡apúntate al próximo evento!"
+  ],
+  "location": {
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5800.357785715247!2d-8.42243692345339!3d43.37328337111684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c5d9ed36627%3A0x2c7f602738ef290a!2sSngular%20A%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1732781620365!5m2!1ses!2ses",
+    "directions": [
+      {
+        "icon": "pin",
+        "title": "Sngular A Coruña",
+        "text": "Rúa Sor Joaquina, 2, Bajo"
+      },
+      {
+        "icon": "bus",
+        "title": "Bus",
+        "text": "La línea más cercana es la 3/3A"
+      },
+      {
+        "icon": "car",
+        "title": "Coche",
+        "text": "Hay aparcamiento gratuito por el paseo"
+      }
+    ]
+  },
+  "contact": [
+    {
+      "icon": "mail",
+      "title": "Mail",
+      "text": "hellocorunawtf@gmail.com",
+      "url": "mailto:hellocorunawtf@gmail.com"
+    },
+    {
+      "icon": "telegram",
+      "title": "Telegram",
+      "text": "CorunaWTF",
+      "url": "https://t.me/corunaWTF"
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "Aviso legal",
+      "path": "legal-terms/"
+    },
+    {
+      "text": "Privacidad",
+      "path": "privacy/"
+    },
+    {
+      "text": "Código de conducta",
+      "path": "code-of-conduct/"
+    }
+  ]
+}

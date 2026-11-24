@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Luma//Luma Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CoruñaWTF
+BEGIN:VEVENT
+DTSTAMP:20261123T210000Z
+DTSTART:20261029T183000Z
+DTEND:20261029T210000Z
+SUMMARY:Organizar un evento para 600 personas sin morir en el intento
+DESCRIPTION:Get up-to-date information at: https://luma.com/3gmwi392\n\nAddress: Sngular A Coruña\, A Coruña\, Spain\n\nHosted by CoruñaWTF\, Jesús Ángel Pérez-Roca Fernández & Andrea Magán Rey
+LOCATION:Sngular A Coruña\, Rúa Sor Joaquina\, 6\, Entreplanta\, 15011 A Coruña\, Spain
+UID:evt-RY6wApHfz2IFyr8@events.lu.ma
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261123T210000Z
+DTSTART:20261112T183000Z
+DTEND:20261112T203000Z
+SUMMARY:Metadatos\, rastros y fuentes abiertas: la otra cara de la web
+DESCRIPTION:Get up-to-date information at: https://luma.com/yv7jjslu\n\nAddress: Sngular A Coruña\, A Coruña\, Spain\n\nHosted by CoruñaWTF
+LOCATION:Sngular A Coruña\, Rúa Sor Joaquina\, 6\, Entreplanta\, 15011 A Coruña\, Spain
+UID:evt-K9jT9utPEN7rWC1@events.lu.ma
+END:VEVENT
+END:VCALENDAR

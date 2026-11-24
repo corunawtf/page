@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Alan Luna",
+    "id": "alan-luna",
+    "image": "/files/Alan.png",
+    "links": []
+  },
+  {
+    "name": "Alberto S. Bardanca",
+    "id": "alberto-bardanca",
+    "image": "/files/Alberto.png",
+    "links": []
+  },
+  {
+    "name": "Carlos Cortizas",
+    "id": "carlos-cortizas",
+    "image": "/files/Carlos.png",
+    "links": []
+  },
+  {
+    "name": "Sergio Castelo",
+    "id": "sergio-castelo",
+    "image": "/files/Sergio.png",
+    "links": []
+  },
+  {
+    "name": "Carla Rodríguez",
+    "id": "carla-rodriguez",
+    "image": "/files/Carla.png",
+    "links": []
+  },
+  {
+    "name": "Miguel Camba",
+    "id": "miguel-camba",
+    "image": "/files/Miguel.png",
+    "links": []
+  },
+  {
+    "name": "Álvaro Lozano",
+    "id": "alvaro-lozano",
+    "image": "/files/Alvaro.png",
+    "links": []
+  },
+  {
+    "name": "Iria Hidalgo",
+    "id": "iria-hidalgo",
+    "image": "/files/Iria.png",
+    "links": []
+  },
+  {
+    "name": "Alejandro Brea",
+    "id": "alex-brea",
+    "image": "/files/Alex.png",
+    "links": []
+  },
+  {
+    "name": "Eva Marco",
+    "id": "eva-marco",
+    "image": "/files/Eva.png",
+    "links": []
+  },
+  {
+    "name": "Néstor López",
+    "id": "nestor-lopez",
+    "image": "/files/Nestor.png",
+    "links": []
+  },
+  {
+    "name": "Martín Torre",
+    "id": "martin-torre",
+    "image": "/files/Martin2.png",
+    "links": []
+  },
+  {
+    "name": "Santiago Jimenez",
+    "id": "santi-jimenez",
+    "image": "/files/Santi.png",
+    "links": []
+  },
+  {
+    "name": "Pablo Castro",
+    "id": "pablo-castro",
+    "image": "/files/Castro.png",
+    "links": []
+  },
+  {
+    "name": "Brais Arias",
+    "id": "brai-arias",
+    "image": "/files/Brais.png",
+    "links": []
+  },
+  {
+    "name": "Pablo Cancelo",
+    "id": "pablo-cancelo",
+    "image": "/files/Cancelo.png",
+    "links": []
+  },
+  {
+    "name": "Andrea Magán",
+    "id": "andrea",
+    "role": "coorganizadora",
+    "image": "/files/Andrea2.png",
+    "links": [
+      {
+        "icon": "linkedin-logo",
+        "url": "https://www.linkedin.com/in/andreamaganrey/"
+      }
+    ]
+  },
+  {
+    "name": "Jesús \"Yisus\" Pérez-Roca",
+    "id": "yisus",
+    "role": "coorganizador",
+    "image": "/files/Jesus.png",
+    "links": [
+      {
+        "icon": "linkedin-logo",
+        "url": "https://www.linkedin.com/in/jesusperezrocafernandez/"
+      }
+    ]
+  },
+  {
+    "name": "María Carolina González Gil",
+    "id": "carol-gonzalez",
+    "image": "/files/Carol.png",
+    "links": [
+      {
+        "icon": "github-logo",
+        "url": "https://github.com/MilkyRaven"
+      }
+    ]
+  },
+  {
+    "name": "Roberto García",
+    "id": "roberto-garcia",
+    "image": "/files/Rober.png",
+    "links": [
+      {
+        "icon": "github-logo",
+        "url": "https://github.com/soulcodex"
+      }
+    ]
+  },
+  {
+    "name": "David Gil",
+    "id": "david-gil",
+    "image": "/files/Gil.png",
+    "links": [
+      {
+        "icon": "github-logo",
+        "url": "https://github.com/dagmendez"
+      }
+    ]
+  },
+  {
+    "name": "Ilda Neta",
+    "id": "ilda-neta",
+    "image": "/files/Ilda.png",
+    "links": [
+      {
+        "icon": "github-logo",
+        "url": "https://github.com/ildaneta"
+      }
+    ]
+  },
+  {
+    "name": "David Bonilla",
+    "id": "david-bonilla",
+    "image": "/files/Bonilla.png",
+    "links": [
+      {
+        "icon": "github-logo",
+        "url": "https://github.com/dbonillaf"
+      }
+    ]
+  },
+  {
+    "name": "Yago Concejo",
+    "id": "yago-concejo",
+    "image": "/files/Yago.png",
+    "links": []
+  },
+  {
+    "name": "Icía Carro Barallobre",
+    "id": "icia-carro",
+    "image": "/files/Icia.png",
+    "links": []
+  },
+  {
+    "name": "Ignacio Espósito",
+    "id": "ignacio-esposito",
+    "image": "/files/Nacho.png",
+    "links": [
+      {
+        "icon": "github-logo",
+        "url": "https://github.com/qwor01"
+      }
+    ]
+  },
+  {
+    "name": "Carlos Garrido Marín",
+    "id": "carlos-garrido",
+    "image": "/files/Garrido.png",
+    "links": []
+  },
+  {
+    "name": "Jesús Manuel Piñeiro Cid",
+    "id": "jesus-pineiro",
+    "image": "/files/Pineiro.png",
+    "links": []
+  }
+]
