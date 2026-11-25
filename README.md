@@ -49,6 +49,24 @@ each one can have `url` (its Eventbrite page) and `slides`, shown as links on it
 A speaker with an `id` from `data/speakers.json` gets a photo and profile on the web; one with only a
 `name` is shown as text.
 
+### Events published outside Luma
+
+Add them to `data/events.json` (date and time in Europe/Madrid). They behave like Luma events:
+they can be the "next event" in the hero and the header button, and they go into the OTE feed.
+
+```json
+[{
+  "slug": "merge-christmas-2026",
+  "title": "Merge Christmas",
+  "subtitle": "Optional",
+  "description": "Optional",
+  "date": "2026-12-03",
+  "time": "19:00",
+  "url": "https://merge-christmas.pages.dev/",
+  "location": { "venue": "Bellini Rooftop", "address": { "street": "…", "postalCode": "…", "locality": "A Coruña", "country": "ES" } }
+}]
+```
+
 ## Development
 
 Requires Node 20+.
