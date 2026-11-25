@@ -208,5 +208,15 @@
     "id": "jesus-pineiro",
     "image": "/files/Pineiro.png",
     "links": []
+  },
+  {
+    "id": "jorge-teixeira",
+    "name": "Jorge Teixeira Crespo",
+    "image": "/files/Jorge.png"
+  },
+  {
+    "id": "daniel-callero",
+    "name": "Daniel Callero Costales",
+    "image": "/files/Dani.png"
   }
 ]
