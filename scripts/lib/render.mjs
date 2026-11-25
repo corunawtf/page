@@ -44,6 +44,12 @@ function header({ config, url, icons, home, featured }) {
 </header>`;
 }
 
+// Texto del botón según dónde esté publicado el evento.
+function ctaLabel(href, upcoming) {
+  const where = /lu\.ma|luma\.com/.test(href) ? " en Luma" : /eventbrite\./.test(href) ? " en Eventbrite" : "";
+  return upcoming ? `Apúntate${where}` : where ? `Ver${where}` : "Ver evento";
+}
+
 function hero({ content, featured, icons, config }) {
   const title = content.tagline.replace(/^(\S+)\s/, "$1&nbsp;").split(" ");
   const words = title.map((w, i) => `<span class="word" style="--i:${i}">${w}</span>`).join(" ");
@@ -64,7 +70,7 @@ function hero({ content, featured, icons, config }) {
     <span class="next-title">${esc(e.title)}</span>
     ${e.speakers.length ? `<span class="next-meta">Con ${esc(e.speakers.map((s) => s.name).join(", "))}</span>` : ""}
     ${where ? `<span class="next-meta">${icon(icons, "pin")}${esc(where)}</span>` : ""}
-    <span class="next-cta" data-label-past="Ver en Luma">${upcoming ? "Apúntate en Luma" : "Ver en Luma"}</span>
+    <span class="next-cta" data-label-past="${esc(ctaLabel(href, false))}">${esc(ctaLabel(href, upcoming))}</span>
     <span class="next-arrow">${icon(icons, "arrow")}</span>
   </a>`;
   }

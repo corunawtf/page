@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "merge-christmas-2026",
+    "title": "Merge Christmas",
+    "subtitle": "Quedada tech de fin de año en A Coruña",
+    "description": "Sin charlas: solo tomar algo y compartir un rato con la comunidad tech de A Coruña. Con Secret Santa opcional (inscripción hasta el 30 de noviembre).",
+    "date": "2026-12-03",
+    "time": "19:00",
+    "url": "https://merge-christmas.pages.dev/",
+    "location": {
+      "venue": "Bellini Rooftop",
+      "address": { "street": "Av. Salvador de Madariaga, 9", "postalCode": "15008", "locality": "A Coruña", "country": "ES" }
+    }
+  }
+]

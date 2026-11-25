@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, readdirSync } f
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseIcs } from "./lib/ics.mjs";
-import { normalizeEvents, historyToEvents, mergeEvents, resolveSpeakers, fetchOgDescription } from "./lib/events.mjs";
+import { normalizeEvents, historyToEvents, mergeEvents, resolveSpeakers, fetchOgDescription, manualEvents } from "./lib/events.mjs";
 import { buildFeed } from "./lib/ote.mjs";
 import { homeHtml, legalHtml, pickFeatured } from "./lib/render.mjs";
 
@@ -65,7 +65,8 @@ if (!process.env.SKIP_ENRICH) {
 // 3. Histórico + Luma
 const speakers = json("data/speakers.json");
 const history = historyToEvents(json("data/history.json"), speakers, config);
-const events = resolveSpeakers(mergeEvents(lumaEvents, history.events), speakers);
+const manual = manualEvents(json("data/events.json"), config);
+const events = resolveSpeakers(mergeEvents([...lumaEvents, ...manual], history.events), speakers);
 const undated = resolveSpeakers(history.undated, speakers);
 
 // 4. Salida

@@ -157,3 +157,30 @@ export function resolveSpeakers(events, speakers) {
     speakers: e.speakers.map((s) => (s.id && byId.has(s.id) ? { id: s.id, name: byId.get(s.id).name, url: byId.get(s.id).links?.[0]?.url } : s)),
   }));
 }
+
+// Hora de pared en `timeZone` -> instante UTC (ISO). Sirve para eventos escritos a mano con hora local.
+export function zonedToUtc(date, time, timeZone) {
+  const guess = new Date(`${date}T${time}:00Z`);
+  const wall = wallClock(guess, timeZone);
+  const offset = new Date(`${wall.date}T${wall.time}:00Z`) - guess; // lo que adelanta la zona respecto a UTC
+  return new Date(guess - offset).toISOString();
+}
+
+// Eventos publicados fuera de Luma (data/events.json): mismo modelo que los de Luma.
+export function manualEvents(list, config) {
+  return list.map((m) => {
+    const startAt = m.time ? zonedToUtc(m.date, m.time, config.timezone) : null;
+    const endAt = m.endTime ? zonedToUtc(m.endDate ?? m.date, m.endTime, config.timezone) : null;
+    return {
+      key: m.slug ?? slugify(`${m.title}-${m.date}`), uid: null,
+      title: m.title, subtitle: m.subtitle ?? "", description: m.description ?? "",
+      url: m.url ?? null, slides: m.slides ?? null,
+      startDate: m.date, startTime: m.time ?? null, endDate: m.endTime ? m.endDate ?? m.date : null, endTime: m.endTime ?? null,
+      allDay: !m.time, startAt, endAt,
+      location: m.location ?? config.venue ?? null,
+      organizers: [], speakers: (m.speakers ?? []).map((sp) => (typeof sp === "string" ? { id: sp } : sp)),
+      status: m.status ?? "scheduled", updatedAt: null,
+      season: seasonOf(m.date, config.seasonOffset),
+    };
+  });
+}

@@ -83,3 +83,9 @@ test("el botón de la cabecera solo invita a apuntarse si hay un evento publicad
   assert.match(after, /Sigue el calendario en Luma/);
   assert.match(after, /class="nav-cta" href="https:\/\/luma.com\/corunawtf"/);
 });
+
+test("los eventos escritos a mano pasan la hora local de Madrid a UTC, en invierno y en verano", async () => {
+  const { zonedToUtc } = await import("../scripts/lib/events.mjs");
+  assert.equal(zonedToUtc("2026-12-03", "19:00", "Europe/Madrid"), "2026-12-03T18:00:00.000Z");
+  assert.equal(zonedToUtc("2026-06-04", "19:30", "Europe/Madrid"), "2026-06-04T17:30:00.000Z");
+});
